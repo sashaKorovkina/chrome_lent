@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Orthodox Lent Diet</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 10px;
+        width: 300px; /* Adjust the width to make the popup more square */
+        height: 250px; /* Adjust the height to make the popup more square */
+        background-color: #f2f2f2; /* Set a light gray background */
+        border-radius: 10px; /* Round the corners of the popup */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle drop shadow */
+      }
+      h1 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      table {
+        border-collapse: collapse;
+        margin-top: 10px;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Orthodox Lent Diet</h1>
+    <p>Today is <span id="current-date"></span>.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Food</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody id="allowed-foods">
+        <tr>
+          <td>Loading...</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="popup.js"></script>
+  </body>
+</html>
